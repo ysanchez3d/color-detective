@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Color Detective",
+  "description": "Detect any color being used on a webpage.",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": {
+      "16": "images/icon-logo-16.png",
+      "32": "images/icon-logo-32.png",
+      "48": "images/icon-logo-48.png"
+    },
+    "default_title": "Color Detective"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "detect-color.js"
+  }
+}
